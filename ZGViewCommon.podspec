@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint common.podspec' to ensure this is a
+#  Be sure to run `pod spec lint ZGViewCommon.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "common"
+  spec.name         = "ZGViewCommon"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of common."
+  spec.summary      = "A short description of ZGViewCommon."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-数据的测试
+测试的demo
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/common"
+  spec.homepage     = "http://EXAMPLE/ZGViewCommon"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,8 +39,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
- # spec.license      = "MIT (example)"
-spec.license      = { :type => "MIT", :file => "LICENSE" }
+  # spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -65,7 +65,7 @@ spec.license      = { :type => "MIT", :file => "LICENSE" }
   #
 
   # spec.platform     = :ios
- spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -91,7 +91,7 @@ spec.license      = { :type => "MIT", :file => "LICENSE" }
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "common", "common/**/*.{h,m}"
+  spec.source_files  = "ZGViewCommon", "ZGViewCommon/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -117,7 +117,7 @@ spec.license      = { :type => "MIT", :file => "LICENSE" }
   #  the lib prefix of their name.
   #
 
- spec.framework  = "UIKit"
+spec.framework  = "UIKit"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
