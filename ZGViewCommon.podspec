@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ZGViewCommon"
-  spec.version      = "0.0.1"
+  spec.version      = "0.1.1"
   spec.summary      = "A short description of ZGViewCommon."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-测试的demo
+demo
                    DESC
 
   spec.homepage     = "http://EXAMPLE/ZGViewCommon"
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "ZGViewCommon", "ZGViewCommon/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
